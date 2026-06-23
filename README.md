@@ -187,14 +187,12 @@ Classifies a comment by looking at the k most similar comments in the training s
  
 ## Results
  
-*Run the notebook to populate this table — values appear in the `perf_df` output after cell 6.*
- 
 | Model | Accuracy | Precision | Recall | F1 |
 |---|---|---|---|---|
-| Naïve Bayes (TF-IDF) | — | — | — | — |
-| k-NN (TF-IDF) | — | — | — | — |
-| Naïve Bayes (Count) | — | — | — | — |
-| k-NN (Count) | — | — | — | — |
+| Naïve Bayes (TF-IDF) | 0.9462 | 0.9332 | 0.5150 | 0.6637 |
+| k-NN (TF-IDF) | 0.9343 | 0.7940 | 0.4898 | 0.6059 |
+| Naïve Bayes (Count) | 0.9453 | 0.7980 | 0.6285 | 0.7032 |
+| k-NN (Count) | 0.9258 | 0.7828 | 0.3880 | 0.5188 |
  
 **Key findings:**
 - Naïve Bayes with Count Vectorization consistently achieves the best precision-recall balance
